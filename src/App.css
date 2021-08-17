@@ -1,0 +1,15 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial,
+    sans-serif, Apple Color Emoji, Segoe UI Emoji;
+  font-size: 14px;
+  line-height: 1.5;
+}
+svg.MuiSvgIcon-root.w-8.h-8 {
+  width: 100%;
+  height: 100%;
+}
