@@ -7,7 +7,7 @@ const Header = () => {
         <div className='header_container  bg-gray-900 text-white flex pt-4 pl-8 pr-8 pb-4 justify-between'>
             <div className="header_left flex items-center">
             <div className="header_logo_container w-9 h-9">
-            <GitHubIcon className='w-8 h-8' />
+            <GitHubIcon className='w-8 h-8 hover:opacity-80 cursor-pointer' />
           
             </div>
             <div className="input_container ml-2  relative ">
@@ -39,7 +39,7 @@ const Header = () => {
             <div className="header_icon ml-2 hover:opacity-80 transition duration-100 ease-in-out cursor-pointer">
          <AddIcon />
             </div>
-            <div className="header_icon ml-2 hover:opacity-80 transition duration-100 ease-in-out cursor-pointer">
+            <div className="header_icon ml-2  cursor-pointer">
                 <img src='https://avatars.githubusercontent.com/u/69002670?v=4' className='w-7 h-7' />
             </div>
             </div>
