@@ -4,7 +4,7 @@ import NotificationsNoneIcon from '@material-ui/icons/NotificationsNone';
 import AddIcon from '@material-ui/icons/Add';
 const Header = () => {
     return (
-        <div className='header_container  bg-gray-900 text-white flex pt-4 pl-8 pr-8 pb-4 justify-between'>
+        <div style= {{backgroundColor:'var(--color-primary)'}} className='header_container  text-white flex pt-4 pl-8 pr-8 pb-4 justify-between'>
             <div className="header_left flex items-center">
             <div className="header_logo_container w-9 h-9">
             <GitHubIcon className='w-8 h-8 hover:opacity-80 cursor-pointer' />

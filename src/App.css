@@ -13,3 +13,6 @@ svg.MuiSvgIcon-root.w-8.h-8 {
   width: 100%;
   height: 100%;
 }
+svg.MuiSvgIcon-root {
+  font-size: 19px;
+}
